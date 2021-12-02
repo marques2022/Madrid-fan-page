@@ -1,0 +1,54 @@
+/* element selectors */
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(217, 228, 224);
+    background-image: url();
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 82px;
+}
+/* class selectors */
+
+/* id selectors */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+a {
+    font-size: 25px;
+    color: black;
+}
+
+a:hover {
+    background-color: white(0, 0, 255, 0.027);
+    font-size: 52px;
+
+
+}
+
+#your-img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+#photobox{
+    display: flex;
+    min-width: 1200px;
+    flex-wrap: wrap;
+}
+
+
+#photobox img {
+    width: 49%;
+}
